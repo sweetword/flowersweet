@@ -1,0 +1,50 @@
+* {
+  font-family: "Poor Story", cursive;
+}
+
+html,
+body {
+  margin: 20px;
+}
+
+.word {
+  font-size: 20px;
+  font-weight: 300;
+}
+
+li {
+  font-size: 30px;
+  margin-top: 10px;
+  width: 450px;
+  /* border: 10px solid rgba(255, 196, 0, 0.598); */
+  list-style: none;
+  justify-content: space-around;
+  /* float: left; */
+  margin-left: 5px;
+  margin-right: 5px;
+  padding: 2rem;
+  display: inline-block;
+  background-color: rgba(255, 255, 255, 0.626);
+}
+
+input {
+  width: 250px;
+  height: 50px;
+  font-size: 30px;
+  margin: 10px;
+  background-color: aliceblue;
+  text-align: center;
+}
+
+.ask {
+  font-size: 30px;
+  text-align: center;
+  background-color: aquamarine;
+  background-size: 200px;
+}
+
+.background {
+  height: 100vh;
+  background: url(asset/flower.jpg) no-repeat center;
+  background-size: cover;
+}
